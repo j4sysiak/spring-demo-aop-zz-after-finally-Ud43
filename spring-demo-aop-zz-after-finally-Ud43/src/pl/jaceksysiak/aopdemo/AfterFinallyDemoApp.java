@@ -22,7 +22,7 @@ public class AfterFinallyDemoApp {
 		
 		try {
 			// add a boolean flag to simulate exceptions
-			boolean tripWire = false;
+			boolean tripWire = true;
 			theAccounts = theAccountDAO.findAccounts(tripWire);
 		}
 		catch (Exception exc) {
